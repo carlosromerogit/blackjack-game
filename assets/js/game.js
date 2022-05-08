@@ -30,4 +30,9 @@ const askForCard = ()=>{
     const card = deck.pop();
     return card;
 }
-askForCard();
+
+const cardValue = (card)=>{
+    const value = card.substring(0, card.length - 1);
+    return (!isNaN(value)) ? Number(value) : ( value === 'A') ? 11 : 10;
+}
+console.log(cardValue(askForCard()));
