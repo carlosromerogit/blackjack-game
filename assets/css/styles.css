@@ -29,6 +29,10 @@ aside{
 .btn:active{
     background-color: #3498DB;
 }
+.btn:disabled{
+    background-color: #3498DB;
+    opacity: 0.8;
+}
 .btn.accent{
     background-color: #CB4335;
 }
