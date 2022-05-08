@@ -1,0 +1,55 @@
+body{
+    box-sizing: border-box;
+    min-width: 520px;
+    margin: 0px;
+    background-color: #145A32;
+    color: #F4F6F7;
+    font-family: sans-serif;
+}
+header{
+    padding: 1rem 0px;
+    background-color: #17202A;
+    text-align: center;
+}
+h1,
+h2{
+    margin: 0px;
+}
+aside{
+    padding: 0.5rem 0px;
+    text-align: center;
+}
+.btn{
+    border: none;
+    padding: 0.4rem;
+    background-color: #2E86C1;
+    color: #F4F6F7;
+    cursor: pointer;
+}
+.btn:active{
+    background-color: #3498DB;
+}
+.btn.accent{
+    background-color: #CB4335;
+}
+.btn.accent:active{
+    background-color: #E74C3C;
+}
+#player,
+#computer{
+    height: 267.625px;
+    margin: 0px 0px 1rem 2rem;
+}
+.cards-container{
+
+}
+
+.card{
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+    width: 150px;
+}
+.title-card{
+    margin-bottom: 0.4rem;
+}
