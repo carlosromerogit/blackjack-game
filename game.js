@@ -15,8 +15,19 @@ const createDeck = ()=>{
             deck.push(`${special + type}`);
         }
     }
-    
+
     deck = _.shuffle(deck);
     return deck;
 }
 createDeck();
+
+const askForCard = ()=>{
+
+    if(deck.length === 0){
+        throw 'No hay más cartas en el deck'
+    }
+
+    const card = deck.pop();
+    return card;
+}
+askForCard();
