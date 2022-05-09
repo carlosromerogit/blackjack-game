@@ -39,6 +39,10 @@ aside{
 .btn.accent:active{
     background-color: #E74C3C;
 }
+.btn.accent:disabled{
+    background-color: #E74C3C;
+    opacity: 0.8;
+}
 #player,
 #computer{
     height: 267.625px;
